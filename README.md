@@ -49,8 +49,6 @@ Parameters:
 3. **Dynamic Programming**: Uses the sophisticated forward energy cumulative map for finding optimal seams
 4. **Seam Removal**: Removes seams and shifts remaining pixels efficiently
 
-This implementation follows the advanced algorithm from the Python reference, providing superior results compared to basic gradient methods.
-
 ## Example
 
 ```bash
