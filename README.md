@@ -1,6 +1,6 @@
 # Seam Carving in C++
 
-A minimal implementation of the seam carving algorithm for content-aware image resizing.
+A implementation of the seam carving algorithm for content-aware image resizing.
 
 ## What is Seam Carving?
 
@@ -42,6 +42,11 @@ Parameters:
 - `output.png` - Output image (PNG format)
 - `50` - Number of vertical seams to remove
 
+<img src="images/img_04.jpg">
+
+<img src="output.png">
+
+
 ## How it Works
 
 1. **Energy Calculation**: Uses Scharr operator (similar to OpenCV's cv2.Scharr) for better gradient detection
@@ -67,7 +72,7 @@ Parameters:
 
 ## Future Improvements
 
-This implementation currently provides basic seam removal functionality. The following features are missing compared to the full Python reference implementation:
+This implementation currently provides basic seam removal functionality.
 
 ### 🚀 High Priority Features
 - **Seam Insertion**: Add capability to increase image dimensions by inserting seams
